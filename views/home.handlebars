@@ -1,0 +1,41 @@
+{{home}}
+<h1>Employee Records</h1>
+<!-- <a href="/employees/add">Add Employee</a> <br> -->
+
+<div class="container">
+  <table class="col-xs-7">
+    <tr>
+      <thead>
+      <th><h2>First_name<h2></th>
+      <th><h2>Last_name<h2></th> 
+      <th><h2>Edit/Delete<h2></th>
+      </tr>
+      </thead>
+
+<tbody>
+{{#employees}}
+
+<tr>
+  <td>
+  <h2>{{first_name}}</h2>
+  </td>
+
+  <td>
+  <h2>{{last_name}}</h2>
+  </td>
+  
+
+<td>
+  <a href="/employees/editEmployees/{{employee_id}}">Edit</a>
+  <a href="/employees/delete/{{employee_id}}">Delete</a>
+</td>
+
+</tr>
+
+{{/employees}}
+</tbody>
+
+{{body}}
+
+</table>
+</div>

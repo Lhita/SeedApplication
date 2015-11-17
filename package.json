@@ -1,0 +1,23 @@
+{
+  "name": "lilly",
+  "version": "1.0.0",
+  "description": "A seed application is a small fully functional application that you can grow and tweak easily.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lhita/SeedApplication.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lhita/SeedApplication/issues"
+  },
+  "homepage": "https://github.com/Lhita/SeedApplication#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {}
+}

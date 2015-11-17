@@ -1,0 +1,10 @@
+<h1>Edit Employees</h1>
+
+{{#data}}
+<form action="/employees/update/{{employee_id}}" method="POST">
+	first-name: <input type="text" name="first_name" value="{{first_name}}">	
+	last-name: <input type="text" name="last_name" value="{{last_name}}">	
+
+	<input type="submit">
+</form>
+{{/data}}
